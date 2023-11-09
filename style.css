@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Metropolis-light";
+  src: url(fonts/metropolis/Metropolis-Light.ttf);
+}
+
+@font-face {
+  font-family: "Metropolis-medium";
+  src: url(fonts/metropolis/Metropolis-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Metropolis-bold";
+  src: url(fonts/metropolis/Metropolis-Black.ttf);
+}
+
+/* .hero {
+  height: 100vh;
+} */
+
+/* navbar styles */
+.navbar {
+  z-index: 999;
+}
+
+ul {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item .nav-link {
+  text-transform: uppercase;
+  font-family: "Metropolis-light";
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.nav-item .nav-link:hover {
+  color: #ed017f;
+}
+.fa-solid {
+  color: #ed017f;
+}
+
+.fa-magnifying-glass {
+  color: #ed017f;
+}
+
+.iservice {
+  margin-left: 1.5rem;
+  width: 108px;
+  background-color: #ed017f;
+  border: 2px solid #ed017f;
+  border-radius: 5px;
+  color: white;
+}
+
+/* hero-sction styles */
+.hero-left {
+  z-index: 999;
+  position: relative;
+  height: 90vh;
+  width: 100vw;
+}
+
+.hero-left h2 {
+  font-size: 60px;
+  font-family: "Metropolis-bold", sans-serif;
+  margin-top: 80px;
+}
+
+.hero-left p {
+  font-family: "Metropolis-light", sans-serif;
+}
+
+.hero-left .btn-apply {
+  position: relative;
+  margin-right: 20px;
+  background-color: #ed017f;
+  border: 2px solid #ed017f;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero-left .btn-loan {
+  margin-top: 20px;
+  border: 2px solid #ed017f;
+  border-radius: 5px;
+}
+
+.hero-left .btn-loan:hover {
+  background-color: #ed017f;
+  color: white;
+}
+
+.hero-left .social-links {
+  width: 40%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-left .social-links a {
+  text-decoration: none;
+}
+
+.hero-left .social-links .tel {
+  font-weight: bold;
+  color: #333;
+  font-style: normal;
+}
+
+.hero-left .social-links .fa-youtube,
+.hero-left .social-links .fa-instagram {
+  color: red;
+}
+
+/* .row .hero-right:first-child {
+  z-index: 0;
+  position: absolute;
+  float: left;
+  height: 85vh;
+  width: 80%;
+} */
+
+.hero-right .bg-color {
+  top: 0;
+  z-index: 10;
+  position: absolute;
+  margin-left: 120px;
+  float: right;
+  height: 85vh;
+  width: 40%;
+  background-color: #ffeaf5;
+}
+
+.hero-right img {
+  margin-top: 80px;
+  z-index: 11;
+  position: absolute;
+  /* float: left; */
+  height: 70vh;
+  width: 50vw;
+  right: 10px;
+}
+
+.btn-car {
+  position: relative;
+  z-index: 11;
+  border: #ffeaf5;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 3px rgb(218, 204, 204);
+  width: 150px;
+  height: 50px;
+}
+
+.btn-car i {
+  color: #d63384;
+  margin-right: 10px;
+}
+
+.btn-home {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 250px;
+  z-index: 11;
+  border: #ffeaf5;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 3px rgb(218, 204, 204);
+  width: 150px;
+  height: 50px;
+}
+
+.btn-home i {
+  color: #d63384;
+  margin-right: 10px;
+}
+
+.btn-car:hover,
+.btn-home:hover {
+  background-color: #ed017f;
+  color: white;
+}
+
+.btn-car:hover i,
+.btn-home:hover i {
+  color: white;
+}
+
+/* .spans .span-1 span::before {
+  content: " ";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: dimgrey;
+  top: 150px;
+}
+
+.spans .span-2 span::before {
+  content: " ";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: dimgrey;
+  top: 150px;
+} */
+
+.spans {
+  position: relative;
+  top: 200px;
+  left: 520px;
+  margin: 2%;
+}
+
+.sphere {
+  z-index: 99;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin: 2%;
+  background-color: rgb(184, 176, 176);
+}
+
+.sphere:first-child {
+  background-color: #ed017f;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  margin: 2%;
+  display: block;
+  border-radius: 50%;
+  right: 2.5px;
+}
