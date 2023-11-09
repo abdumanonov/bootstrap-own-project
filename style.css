@@ -115,14 +115,6 @@ ul {
   color: red;
 }
 
-/* .row .hero-right:first-child {
-  z-index: 0;
-  position: absolute;
-  float: left;
-  height: 85vh;
-  width: 80%;
-} */
-
 .hero-right .bg-color {
   top: 0;
   z-index: 10;
@@ -188,24 +180,6 @@ ul {
 .btn-home:hover i {
   color: white;
 }
-
-/* .spans .span-1 span::before {
-  content: " ";
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  background-color: dimgrey;
-  top: 150px;
-}
-
-.spans .span-2 span::before {
-  content: " ";
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  background-color: dimgrey;
-  top: 150px;
-} */
 
 .spans {
   position: relative;
