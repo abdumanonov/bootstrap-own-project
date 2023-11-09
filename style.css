@@ -86,6 +86,7 @@ ul {
   margin-top: 20px;
   border: 2px solid #ed017f;
   border-radius: 5px;
+  color: #ed017f;
 }
 
 .hero-left .btn-loan:hover {
@@ -139,6 +140,7 @@ ul {
 .btn-car {
   position: relative;
   z-index: 11;
+  top: 100px;
   border: #ffeaf5;
   background-color: white;
   border-radius: 25px;
@@ -154,8 +156,8 @@ ul {
 
 .btn-home {
   position: absolute;
-  margin-top: 150px;
-  margin-left: 250px;
+  margin-top: 200px;
+  margin-left: 350px;
   z-index: 11;
   border: #ffeaf5;
   background-color: white;
@@ -183,8 +185,8 @@ ul {
 
 .spans {
   position: relative;
-  top: 200px;
-  left: 520px;
+  top: 250px;
+  left: 620px;
   margin: 2%;
 }
 
@@ -208,4 +210,88 @@ ul {
   display: block;
   border-radius: 50%;
   right: 2.5px;
+}
+
+/* experience section style */
+.experience h2 {
+  font-family: "Metropolis-bold", sans-serif;
+}
+
+.experience h5,
+.experience p {
+  font-family: "Metropolis-light", sans-serif;
+}
+
+/* partners section style */
+.partners h3 {
+  font-family: "Metropolis-light", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.spans-partner {
+  position: relative;
+  margin: 2%;
+}
+
+.sphere-partner {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin: 1%;
+  background-color: rgb(184, 176, 176);
+}
+
+.sphere-partner:first-child {
+  background-color: #ed017f;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  margin: 1%;
+  display: inline-block;
+  border-radius: 50%;
+  right: 2.5px;
+}
+
+/* info section style */
+/* .info .row .col-6:last-child {
+  position: absolute;
+  right: 100px;
+} */
+
+.info h3 {
+  font-family: "Metropolis-light", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+.info p {
+  font-family: "Metropolis-light", sans-serif;
+  line-height: 2em;
+}
+
+.info .row .col-5 img {
+  position: absolute;
+  left: 0;
+}
+
+.btn-read {
+  border: none;
+  font-size: 20px;
+  color: #ed017f;
+}
+
+.btn-read i {
+  margin-left: 15px;
+  color: #ed017f;
+}
+
+.btn-read:hover,
+.btn-read:hover i {
+  background-color: #ed017f;
+  color: #ffeaf5;
+  border-radius: 25px;
 }
